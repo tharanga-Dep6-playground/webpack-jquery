@@ -8,6 +8,9 @@ module.exports = merge(superConfig ,{
         filename: 'main.[contenthash].bundle.js',
         path: __dirname +  '/out',
     },
+    optimization: {
+        minimize: false
+    },
     plugins: [
         new MiniCssExtractPlugin({
             filename: 'main.[contenthash].min.css'
