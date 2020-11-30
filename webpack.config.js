@@ -19,10 +19,6 @@ module.exports = {
             {
                 test: /\.(png|jpeg|jpg|gif|svg|woff|woff2|eot|ttf|otf)$/,
                 type: 'asset/resource'
-            }, 
-            {
-                test: /\/dist\/jquery.js$/,
-                use: ['raw-loader']
             }
         ]
     },
